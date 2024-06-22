@@ -1,0 +1,147 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('C:\Users\kovid\OneDrive\Pictures\y.webp'); /* Replace '/background.jpg' with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.survey-form {
+  max-width: 600px;
+  margin: 30px;
+  padding: 50px;
+  background-color: rgba(138, 175, 203, 0.8); /* Adjust background opacity if needed */
+  border: 5px solid #081e65;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(31, 30, 30, 0.1);
+}
+
+.survey-form h2 {
+  margin-bottom: 50px;
+  font-size: 40px;
+  color: #0b0b69;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+select,
+textarea,
+input[type='number'] {
+  width: 30em;
+  padding: 7px;
+  color:rgb(14, 29, 69);
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 4px solid #211865;
+  border-radius: 17px;
+  font-size: 20px;
+}
+
+select {
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+}
+.feedback-section {
+  margin-top: 20px;
+}
+
+.feedback-section p {
+  font-weight: bold;
+}
+
+.feedback-content {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  white-space: pre-wrap; /* Ensures that text wraps correctly */
+  line-height: 1.6; /* Adjust line height for readability */
+  font-size: 1rem; /* Adjust font size as needed */
+  max-height: 200px; /* Limit height if necessary */
+  overflow-y: auto; /* Add scrollbar if content exceeds max-height */
+}
+.summary {
+  margin-top: 20px;
+  padding: 20px;
+  border: 3px solid #dddddd;
+  border-radius: 10px;
+  background-color: #0c0c43;
+  text-align: left;
+}
+
+.summary h2 {
+  margin-bottom: 10px;
+  color: #f7f2f2;
+}
+.summary p {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  color:white;
+
+}
+
+.summary strong {
+  font-weight: bold;
+}
+
+.additional-questions {
+  margin-top: 15px;
+}
+
+.additional-questions h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.additional-questions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.additional-questions li {
+  margin-bottom: 5px;
+}
+.submit-btn {
+  background-color: #052241;
+  color: #fff;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
